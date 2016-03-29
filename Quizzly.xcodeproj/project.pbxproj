@@ -15,6 +15,24 @@
 		9F6D87331C88FF9D005BD58A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6D87311C88FF9D005BD58A /* LaunchScreen.storyboard */; };
 		9F6D873E1C88FF9D005BD58A /* QuizzlyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D873D1C88FF9D005BD58A /* QuizzlyTests.m */; };
 		9F6D87491C88FF9D005BD58A /* QuizzlyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D87481C88FF9D005BD58A /* QuizzlyUITests.m */; };
+		9F71E66D1C9DFDA7007CE69A /* Airship in Resources */ = {isa = PBXBuildFile; fileRef = 9F71E66B1C9DFDA7007CE69A /* Airship */; };
+		9F71E66E1C9DFDA7007CE69A /* AirshipKit in Resources */ = {isa = PBXBuildFile; fileRef = 9F71E66C1C9DFDA7007CE69A /* AirshipKit */; };
+		9F71E6751C9DFDE4007CE69A /* AirshipKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F71E6741C9DFDBA007CE69A /* AirshipKit.framework */; };
+		9F71E6761C9DFDE4007CE69A /* AirshipKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9F71E6741C9DFDBA007CE69A /* AirshipKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9F71E67A1C9DFEBD007CE69A /* AirshipConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F71E6791C9DFEBD007CE69A /* AirshipConfig.plist */; };
+		9F8C9B831C8ECA0400C792BF /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C9B821C8ECA0400C792BF /* QuizViewController.m */; };
+		9F8C9B861C8ED3C900C792BF /* QuizManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8C9B851C8ED3C900C792BF /* QuizManager.m */; };
+		9FBA84C91CAA34C30009AADA /* xxx.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBA84C81CAA34C30009AADA /* xxx.m */; };
+		E659342E1C8E7F3F008A1052 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E65933BF1C8E7F3F008A1052 /* AFHTTPSessionManager.m */; };
+		E659342F1C8E7F3F008A1052 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E65933C21C8E7F3F008A1052 /* AFNetworkReachabilityManager.m */; };
+		E65934301C8E7F3F008A1052 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E65933C41C8E7F3F008A1052 /* AFSecurityPolicy.m */; };
+		E65934311C8E7F3F008A1052 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E65933C61C8E7F3F008A1052 /* AFURLRequestSerialization.m */; };
+		E65934321C8E7F3F008A1052 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E65933C81C8E7F3F008A1052 /* AFURLResponseSerialization.m */; };
+		E65934331C8E7F3F008A1052 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E65933CA1C8E7F3F008A1052 /* AFURLSessionManager.m */; };
+		E659343D1C8E81A5008A1052 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E659343C1C8E81A5008A1052 /* CoreTelephony.framework */; };
+		E65934401C8E835F008A1052 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E659343F1C8E835F008A1052 /* AppManager.m */; };
+		E65934431C8E840F008A1052 /* CourcesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E65934421C8E840F008A1052 /* CourcesVC.m */; };
+		E65934461C8E850B008A1052 /* CourseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E65934451C8E850B008A1052 /* CourseCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +50,35 @@
 			remoteGlobalIDString = 9F6D871F1C88FF9D005BD58A;
 			remoteInfo = Quizzly;
 		};
+		9F71E6731C9DFDBA007CE69A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F71E66F1C9DFDBA007CE69A /* AirshipKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 494DD9571B0EB677009C134E;
+			remoteInfo = AirshipKit;
+		};
+		9F71E6771C9DFDE4007CE69A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F71E66F1C9DFDBA007CE69A /* AirshipKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 494DD9561B0EB677009C134E;
+			remoteInfo = AirshipKit;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9F6D87641C890642005BD58A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9F71E6761C9DFDE4007CE69A /* AirshipKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9F6D87201C88FF9D005BD58A /* Quizzly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzly.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +97,37 @@
 		9F6D87441C88FF9D005BD58A /* QuizzlyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizzlyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6D87481C88FF9D005BD58A /* QuizzlyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizzlyUITests.m; sourceTree = "<group>"; };
 		9F6D874A1C88FF9D005BD58A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F71E66B1C9DFDA7007CE69A /* Airship */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Airship; sourceTree = "<group>"; };
+		9F71E66C1C9DFDA7007CE69A /* AirshipKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AirshipKit; sourceTree = "<group>"; };
+		9F71E66F1C9DFDBA007CE69A /* AirshipKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AirshipKit.xcodeproj; path = AirshipKit/AirshipKit.xcodeproj; sourceTree = "<group>"; };
+		9F71E6791C9DFEBD007CE69A /* AirshipConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AirshipConfig.plist; sourceTree = "<group>"; };
+		9F8C9B7D1C8E226100C792BF /* Quizzly-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quizzly-Prefix.pch"; sourceTree = "<group>"; };
+		9F8C9B811C8ECA0400C792BF /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		9F8C9B821C8ECA0400C792BF /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		9F8C9B841C8ED3C900C792BF /* QuizManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizManager.h; sourceTree = "<group>"; };
+		9F8C9B851C8ED3C900C792BF /* QuizManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizManager.m; sourceTree = "<group>"; };
+		9FBA84C71CAA34C30009AADA /* xxx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xxx.h; sourceTree = "<group>"; };
+		9FBA84C81CAA34C30009AADA /* xxx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xxx.m; sourceTree = "<group>"; };
+		E65933BE1C8E7F3F008A1052 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		E65933BF1C8E7F3F008A1052 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		E65933C01C8E7F3F008A1052 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		E65933C11C8E7F3F008A1052 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		E65933C21C8E7F3F008A1052 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		E65933C31C8E7F3F008A1052 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		E65933C41C8E7F3F008A1052 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		E65933C51C8E7F3F008A1052 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		E65933C61C8E7F3F008A1052 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		E65933C71C8E7F3F008A1052 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		E65933C81C8E7F3F008A1052 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		E65933C91C8E7F3F008A1052 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		E65933CA1C8E7F3F008A1052 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		E659343C1C8E81A5008A1052 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		E659343E1C8E835F008A1052 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		E659343F1C8E835F008A1052 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		E65934411C8E840F008A1052 /* CourcesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourcesVC.h; sourceTree = "<group>"; };
+		E65934421C8E840F008A1052 /* CourcesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourcesVC.m; sourceTree = "<group>"; };
+		E65934441C8E850B008A1052 /* CourseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseCell.h; sourceTree = "<group>"; };
+		E65934451C8E850B008A1052 /* CourseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +135,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E659343D1C8E81A5008A1052 /* CoreTelephony.framework in Frameworks */,
+				9F71E6751C9DFDE4007CE69A /* AirshipKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +160,21 @@
 		9F6D87171C88FF9C005BD58A = {
 			isa = PBXGroup;
 			children = (
+				9F71E6791C9DFEBD007CE69A /* AirshipConfig.plist */,
+				9F71E66F1C9DFDBA007CE69A /* AirshipKit.xcodeproj */,
+				9F71E66B1C9DFDA7007CE69A /* Airship */,
+				9F71E66C1C9DFDA7007CE69A /* AirshipKit */,
+				9F8C9B811C8ECA0400C792BF /* QuizViewController.h */,
+				9F8C9B821C8ECA0400C792BF /* QuizViewController.m */,
+				E65934441C8E850B008A1052 /* CourseCell.h */,
+				E65934451C8E850B008A1052 /* CourseCell.m */,
+				E65934411C8E840F008A1052 /* CourcesVC.h */,
+				E65934421C8E840F008A1052 /* CourcesVC.m */,
+				E659343E1C8E835F008A1052 /* AppManager.h */,
+				E659343F1C8E835F008A1052 /* AppManager.m */,
+				9F8C9B841C8ED3C900C792BF /* QuizManager.h */,
+				9F8C9B851C8ED3C900C792BF /* QuizManager.m */,
+				E659343C1C8E81A5008A1052 /* CoreTelephony.framework */,
 				9F6D87221C88FF9D005BD58A /* Quizzly */,
 				9F6D873C1C88FF9D005BD58A /* QuizzlyTests */,
 				9F6D87471C88FF9D005BD58A /* QuizzlyUITests */,
@@ -101,6 +195,7 @@
 		9F6D87221C88FF9D005BD58A /* Quizzly */ = {
 			isa = PBXGroup;
 			children = (
+				E65933BD1C8E7F3F008A1052 /* AFNetworking */,
 				9F6D87261C88FF9D005BD58A /* AppDelegate.h */,
 				9F6D87271C88FF9D005BD58A /* AppDelegate.m */,
 				9F6D87291C88FF9D005BD58A /* ViewController.h */,
@@ -110,6 +205,8 @@
 				9F6D87311C88FF9D005BD58A /* LaunchScreen.storyboard */,
 				9F6D87341C88FF9D005BD58A /* Info.plist */,
 				9F6D87231C88FF9D005BD58A /* Supporting Files */,
+				9FBA84C71CAA34C30009AADA /* xxx.h */,
+				9FBA84C81CAA34C30009AADA /* xxx.m */,
 			);
 			path = Quizzly;
 			sourceTree = "<group>";
@@ -118,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				9F6D87241C88FF9D005BD58A /* main.m */,
+				9F8C9B7D1C8E226100C792BF /* Quizzly-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -140,6 +238,34 @@
 			path = QuizzlyUITests;
 			sourceTree = "<group>";
 		};
+		9F71E6701C9DFDBA007CE69A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F71E6741C9DFDBA007CE69A /* AirshipKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E65933BD1C8E7F3F008A1052 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				E65933BE1C8E7F3F008A1052 /* AFHTTPSessionManager.h */,
+				E65933BF1C8E7F3F008A1052 /* AFHTTPSessionManager.m */,
+				E65933C01C8E7F3F008A1052 /* AFNetworking.h */,
+				E65933C11C8E7F3F008A1052 /* AFNetworkReachabilityManager.h */,
+				E65933C21C8E7F3F008A1052 /* AFNetworkReachabilityManager.m */,
+				E65933C31C8E7F3F008A1052 /* AFSecurityPolicy.h */,
+				E65933C41C8E7F3F008A1052 /* AFSecurityPolicy.m */,
+				E65933C51C8E7F3F008A1052 /* AFURLRequestSerialization.h */,
+				E65933C61C8E7F3F008A1052 /* AFURLRequestSerialization.m */,
+				E65933C71C8E7F3F008A1052 /* AFURLResponseSerialization.h */,
+				E65933C81C8E7F3F008A1052 /* AFURLResponseSerialization.m */,
+				E65933C91C8E7F3F008A1052 /* AFURLSessionManager.h */,
+				E65933CA1C8E7F3F008A1052 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,10 +276,12 @@
 				9F6D871C1C88FF9D005BD58A /* Sources */,
 				9F6D871D1C88FF9D005BD58A /* Frameworks */,
 				9F6D871E1C88FF9D005BD58A /* Resources */,
+				9F6D87641C890642005BD58A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				9F71E6781C9DFDE4007CE69A /* PBXTargetDependency */,
 			);
 			name = Quizzly;
 			productName = Quizzly;
@@ -207,7 +335,15 @@
 				TargetAttributes = {
 					9F6D871F1C88FF9D005BD58A = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 992T322R84;
+						DevelopmentTeam = 7FX28RKSGV;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					9F6D87381C88FF9D005BD58A = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -232,6 +368,12 @@
 			mainGroup = 9F6D87171C88FF9C005BD58A;
 			productRefGroup = 9F6D87211C88FF9D005BD58A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9F71E6701C9DFDBA007CE69A /* Products */;
+					ProjectRef = 9F71E66F1C9DFDBA007CE69A /* AirshipKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9F6D871F1C88FF9D005BD58A /* Quizzly */,
@@ -241,6 +383,16 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		9F71E6741C9DFDBA007CE69A /* AirshipKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AirshipKit.framework;
+			remoteRef = 9F71E6731C9DFDBA007CE69A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		9F6D871E1C88FF9D005BD58A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
@@ -248,6 +400,9 @@
 			files = (
 				9F6D87331C88FF9D005BD58A /* LaunchScreen.storyboard in Resources */,
 				9F6D87301C88FF9D005BD58A /* Assets.xcassets in Resources */,
+				9F71E67A1C9DFEBD007CE69A /* AirshipConfig.plist in Resources */,
+				9F71E66D1C9DFDA7007CE69A /* Airship in Resources */,
+				9F71E66E1C9DFDA7007CE69A /* AirshipKit in Resources */,
 				9F6D872E1C88FF9D005BD58A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +428,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E65934331C8E7F3F008A1052 /* AFURLSessionManager.m in Sources */,
 				9F6D872B1C88FF9D005BD58A /* ViewController.m in Sources */,
 				9F6D87281C88FF9D005BD58A /* AppDelegate.m in Sources */,
+				E659342F1C8E7F3F008A1052 /* AFNetworkReachabilityManager.m in Sources */,
 				9F6D87251C88FF9D005BD58A /* main.m in Sources */,
+				E65934301C8E7F3F008A1052 /* AFSecurityPolicy.m in Sources */,
+				E65934311C8E7F3F008A1052 /* AFURLRequestSerialization.m in Sources */,
+				9F8C9B831C8ECA0400C792BF /* QuizViewController.m in Sources */,
+				9FBA84C91CAA34C30009AADA /* xxx.m in Sources */,
+				E65934431C8E840F008A1052 /* CourcesVC.m in Sources */,
+				E65934461C8E850B008A1052 /* CourseCell.m in Sources */,
+				9F8C9B861C8ED3C900C792BF /* QuizManager.m in Sources */,
+				E65934321C8E7F3F008A1052 /* AFURLResponseSerialization.m in Sources */,
+				E659342E1C8E7F3F008A1052 /* AFHTTPSessionManager.m in Sources */,
+				E65934401C8E835F008A1052 /* AppManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +474,11 @@
 			isa = PBXTargetDependency;
 			target = 9F6D871F1C88FF9D005BD58A /* Quizzly */;
 			targetProxy = 9F6D87451C88FF9D005BD58A /* PBXContainerItemProxy */;
+		};
+		9F71E6781C9DFDE4007CE69A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AirshipKit;
+			targetProxy = 9F71E6771C9DFDE4007CE69A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -414,10 +586,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Choi (8EDVK4W622)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: James Choi (8EDVK4W622)";
 				INFOPLIST_FILE = Quizzly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = SAM.Quizzly;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Quizzly/Airship",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.quizzly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "99ad2f03-1253-457f-b6f1-4942bb11a04b";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -425,10 +611,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: James Choi (8EDVK4W622)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: James Choi (8EDVK4W622)";
 				INFOPLIST_FILE = Quizzly/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = SAM.Quizzly;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Quizzly/Airship",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-lsqlite3",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.quizzly;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "99ad2f03-1253-457f-b6f1-4942bb11a04b";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -499,6 +699,7 @@
 				9F6D874F1C88FF9D005BD58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F6D87501C88FF9D005BD58A /* Build configuration list for PBXNativeTarget "QuizzlyTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +708,7 @@
 				9F6D87521C88FF9D005BD58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F6D87531C88FF9D005BD58A /* Build configuration list for PBXNativeTarget "QuizzlyUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +717,7 @@
 				9F6D87551C88FF9D005BD58A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

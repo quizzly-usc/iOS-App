@@ -8,8 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<NSXMLParserDelegate, NSLayoutManagerDelegate, UIActionSheetDelegate>
 
+@property (weak, nonatomic) IBOutlet UITextField *emailTF;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTF;
+
+
+- (IBAction)fetchGreeting;
 
 @end
-
