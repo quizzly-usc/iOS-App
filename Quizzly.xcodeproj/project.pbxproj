@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F4292CB1CBDF3BE00E2B6CA /* freeResponseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4292CA1CBDF3BE00E2B6CA /* freeResponseViewController.m */; };
+		9F4292CE1CBEC8A300E2B6CA /* signUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F4292CD1CBEC8A300E2B6CA /* signUpViewController.m */; };
 		9F6D87251C88FF9D005BD58A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D87241C88FF9D005BD58A /* main.m */; };
 		9F6D87281C88FF9D005BD58A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D87271C88FF9D005BD58A /* AppDelegate.m */; };
 		9F6D872B1C88FF9D005BD58A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6D872A1C88FF9D005BD58A /* ViewController.m */; };
@@ -81,6 +83,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9F4292C91CBDF3BE00E2B6CA /* freeResponseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = freeResponseViewController.h; sourceTree = "<group>"; };
+		9F4292CA1CBDF3BE00E2B6CA /* freeResponseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = freeResponseViewController.m; sourceTree = "<group>"; };
+		9F4292CC1CBEC8A300E2B6CA /* signUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signUpViewController.h; sourceTree = "<group>"; };
+		9F4292CD1CBEC8A300E2B6CA /* signUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = signUpViewController.m; sourceTree = "<group>"; };
 		9F6D87201C88FF9D005BD58A /* Quizzly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quizzly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6D87241C88FF9D005BD58A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F6D87261C88FF9D005BD58A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -166,6 +172,10 @@
 				9F71E66C1C9DFDA7007CE69A /* AirshipKit */,
 				9F8C9B811C8ECA0400C792BF /* QuizViewController.h */,
 				9F8C9B821C8ECA0400C792BF /* QuizViewController.m */,
+				9F4292CC1CBEC8A300E2B6CA /* signUpViewController.h */,
+				9F4292CD1CBEC8A300E2B6CA /* signUpViewController.m */,
+				9F4292C91CBDF3BE00E2B6CA /* freeResponseViewController.h */,
+				9F4292CA1CBDF3BE00E2B6CA /* freeResponseViewController.m */,
 				E65934441C8E850B008A1052 /* CourseCell.h */,
 				E65934451C8E850B008A1052 /* CourseCell.m */,
 				E65934411C8E840F008A1052 /* CourcesVC.h */,
@@ -435,6 +445,7 @@
 				9F6D87251C88FF9D005BD58A /* main.m in Sources */,
 				E65934301C8E7F3F008A1052 /* AFSecurityPolicy.m in Sources */,
 				E65934311C8E7F3F008A1052 /* AFURLRequestSerialization.m in Sources */,
+				9F4292CB1CBDF3BE00E2B6CA /* freeResponseViewController.m in Sources */,
 				9F8C9B831C8ECA0400C792BF /* QuizViewController.m in Sources */,
 				9FBA84C91CAA34C30009AADA /* xxx.m in Sources */,
 				E65934431C8E840F008A1052 /* CourcesVC.m in Sources */,
@@ -443,6 +454,7 @@
 				E65934321C8E7F3F008A1052 /* AFURLResponseSerialization.m in Sources */,
 				E659342E1C8E7F3F008A1052 /* AFHTTPSessionManager.m in Sources */,
 				E65934401C8E835F008A1052 /* AppManager.m in Sources */,
+				9F4292CE1CBEC8A300E2B6CA /* signUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

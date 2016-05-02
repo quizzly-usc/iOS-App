@@ -8,11 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+typedef  void(^Success)(id);
+typedef  void(^Error)(id);
+
 @interface ViewController : UIViewController<NSXMLParserDelegate, NSLayoutManagerDelegate, UIActionSheetDelegate>
 
 @property (weak, nonatomic) IBOutlet UITextField *emailTF;
 @property (weak, nonatomic) IBOutlet UITextField *passwordTF;
 
+-(void)sendSignIn:(NSDictionary *)params
+          success:(Success)success
+          failure:(Error)success;
 
 - (IBAction)fetchGreeting;
 

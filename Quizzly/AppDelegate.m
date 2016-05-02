@@ -11,6 +11,7 @@
 #import "xxx.h"
 #import "QuizManager.h"
 #import "QuizViewController.h"
+#import "freeResponseViewController.h"
 
 @interface AppDelegate ()
 
@@ -84,10 +85,27 @@
     
     _navigationControl = (UINavigationController *) self.window.rootViewController;
     
-    QuizViewController* newView = [self.storyboard instantiateViewControllerWithIdentifier:@"QuizView"];
-    newView.data = userInfo;
+    
+    NSString *a = userInfo[@"num_answers"];
+    NSInteger b = [a integerValue];
+    
+    
 
-    [_navigationControl pushViewController:newView animated:YES];
+    if(b == 0)
+    {
+        freeResponseViewController* newView = [self.storyboard instantiateViewControllerWithIdentifier:@"FRView"];
+        //freeResponseView* newView = [self.storyboard instantiateViewControllerWithIdentifier:@"FRView"];
+        newView.questionContainer = userInfo;
+        
+        [_navigationControl pushViewController:newView animated:YES];
+    }
+    else{
+        QuizViewController* newView = [self.storyboard instantiateViewControllerWithIdentifier:@"QuizView"];
+        newView.data = userInfo;
+        
+        [_navigationControl pushViewController:newView animated:YES];
+    }
+  
     //[self.navigationControl pushViewController: newView animated: YES];
     
     

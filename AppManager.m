@@ -8,7 +8,7 @@
 
 #define SERVER_URL                          @"http://fontify.usc.edu"
 
-#define COURSES                             @"/courses/student/1"
+#define COURSES                             @"/courses/student/2"
 
 #import "AppManager.h"
 #import "AFNetworking.h"
